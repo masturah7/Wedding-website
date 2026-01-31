@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
-import Banner from './Components/Banner'
+import NavBar from './Components/NavBar'
+import Home from './Components/Home'
 import Toast from './Components/Toast'
 import Memories from './Components/Memories'
 import Party from './Components/Party'
@@ -15,7 +16,8 @@ import Footer from './Components/Footer'
 function App() {
  return (
     <>
-      <Banner />
+      <NavBar />
+      <Home />
       <Toast />
       <Memories />
       <Party />
