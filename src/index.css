@@ -1,3 +1,5 @@
+
+
 #basic-navbar-nav a{
   color: aliceblue;
   font-size: 1.2;
@@ -26,13 +28,16 @@
   object-position: top;
 }
 .carousel-caption{
-  top: 45%;
+  top: 44%;
 }
 .carousel-caption h3{
-  font-size: 2rem;
+  font-size: 3rem;
+  font-family:  "Great Vibes", cursive;
+  
 }
 .carousel-caption p{
-  font-size: 1.2rem;
+  font-size: 1.7rem;
+  font-family:"Great Vibes", cursive;
  }
 .overlay{
   position: absolute;
@@ -88,6 +93,8 @@
   background: #d4af37;
   display: block;
   margin-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -96,6 +103,7 @@
   line-height: 1.8;
   color: #444;
   max-width: 520px;
+  padding-top: 5px;
 }
 
 /* Lightbox image */
@@ -319,6 +327,27 @@
   max-width: 700px;
   margin: 0 auto 40px auto;
 }
+.nav-btn.right {
+    /* right: -70px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2px;
+  padding-right: 1px;
+  padding-bottom: 10px;
+  padding-left: 2px;
+    
+}
+.nav-btn.left {
+        left: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         padding-top: 2px;
+  padding-right: 1px;
+  padding-bottom: 10px;
+  padding-left: 2px;
+    }
 
 .love-story {
   font-family: "Playfair Display", serif;
@@ -374,6 +403,13 @@
   color: #251313;
   
 }
+
+.story-btn {
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-weight: 500;
+}
+
 
 /* Drop cap */
 .drop-cap {
@@ -503,6 +539,12 @@
 .gift-bank-card p:not(:last-child) {
   border-bottom: 1px solid rgba(212, 175, 55, 0.25);
   padding-bottom: 8px;
+}
+
+.modal-title{
+  font-size: 5rem;
+  text-align: center;
+  color: #c6a14a;
 }
 
 .wedding-footer {
